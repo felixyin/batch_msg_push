@@ -15,7 +15,7 @@ public class Consts {
     /**
      * 软件名称,版本
      */
-    public final static String APP_NAME = "BatchMsgPush";
+    public final static String APP_NAME = "群发助手";
     public final static String APP_VERSION = "v_4.2.1_200308";
 
     /**
