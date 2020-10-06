@@ -132,7 +132,8 @@ public class Init {
 
         // 检查新版版
         if (App.config.isAutoCheckUpdate()) {
-            ThreadUtil.execute(() -> UpgradeUtil.checkUpdate(true));
+            // todo 部署服务器后自动更新
+//            ThreadUtil.execute(() -> UpgradeUtil.checkUpdate(true));
         }
         // 更新二维码
         ThreadUtil.execute(AboutListener::initQrCode);
